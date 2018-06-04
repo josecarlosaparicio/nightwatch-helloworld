@@ -1,0 +1,41 @@
+{
+  "src_folders" : ["./artefacts/tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "./artefacts/commands",
+  "custom_assertions_path" : "./artefacts/assertions",
+  "page_objects_path" : "./artefacts/pages",
+  "globals_path" : "./artefacts/globals.js",
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "lib/selenium-server-standalone-3.9.0.jar",
+    "log_path" : "./logs",
+    "host" : "",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.ie.driver" : "./lib/IEDriverServer.exe",
+      "webdriver.chrome.driver" : "./lib/chromedriver.exe",
+      "webdriver.gecko.driver" : "./lib/geckodriver.exe",
+      "webdriver.edge.driver" : "./lib/MicrosoftWebDriver.exe"
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "on_failure" : true,
+        "on_error" : true,
+        "path" : "./screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "marionette": true
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "nightwatch-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./nightwatch.run.js --config ./nightwatch.conf.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "0.9.21"
+  }
+}
