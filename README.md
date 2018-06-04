@@ -1,10 +1,10 @@
-# nightwatch-helloworld
+# Hello World nightwatch.js
 Simple example of a nightwatch project
 
 ## Dependencies
 
-Node.js v8.9.X
-Chrome 66
+* Node.js v8.9.X
+* Google Chrome browser
 
 ## Installation
 
