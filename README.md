@@ -1,5 +1,5 @@
-# Hello World nightwatch.js
-Simple example of a nightwatch project
+# Nightwatch.js Hello World 
+This a simple example of a nightwatch project for beginning to implement e2e testing.
 
 ## Dependencies
 
@@ -8,8 +8,12 @@ Simple example of a nightwatch project
 
 ## Installation
 
-Just execute on bash `npm install`
+The first time, just execute once `npm install` on bash.
 
-## Launch tests
+## Launching tests
 
 Run `npm test`
+
+## More info
+
+In order to know how to write a test, making custom assertions or commands, or any else about this testing enviroment visit the official [guide of nightwatch.js](http://nightwatchjs.org/guide)
